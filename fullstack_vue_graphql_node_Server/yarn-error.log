@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add apolo-server --save
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eduardo/Android/Sdk/tools:/home/eduardo/Android/Sdk/platform-tools:/home/eduardo/Documents/Android/Sdk/tools:/home/eduardo/Android/Sdk/tools:/home/eduardo/Android/Sdk/platform-tools:/home/eduardo/Documents/Android/Sdk/tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/apolo-server: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "nagator-server",
+    "version": "1.0.0",
+    "description": "server do namegator-client",
+    "main": "index.js",
+    "author": "Eduardo Carlos",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
